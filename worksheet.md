@@ -83,4 +83,3 @@ Ending 6: Humanity Saved (True Ending)
 Condition: Player chooses Mina + High Trust + Frequency Clue.
 Outcome: Xena tells Mina the note is "B-Flat." Mina inverts the frequency. A massive blast clears the signal.
 The Cost: Mina survives but her hair turns white from the trauma. The bunker is permanently sealed. They are stuck in the dark, but the world is saved.
-

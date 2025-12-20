@@ -1,0 +1,31 @@
+AUDIO FILES NEEDED (OPTIONAL)
+==================================================
+
+The following audio files should be placed in this directory:
+
+  - bass_hum.ogg - Low, throbbing bass sound
+  - glitch.ogg - Digital glitch sound effect
+  - smash.ogg - Panel smashing sound
+  - distortion.ogg - Audio distortion
+  - glass_crack.ogg - Glass cracking
+  - door_grind.ogg - Heavy doors grinding
+  - horror.ogg - Horror sting
+  - wire_rip.ogg - Electrical wire ripping
+  - lullaby.ogg - Calm lullaby music
+  - desync.ogg - Desync effect sound
+  - massive_thrum.ogg - Deep, bone-shaking sound
+
+==================================================
+Note: If audio files are missing, the game will still run.
+Ren'Py will simply skip playing the missing sounds.
+
+Audio format: OGG Vorbis is recommended for Ren'Py games.
+You can convert MP3/WAV to OGG using tools like:
+- Audacity (free audio editor)
+- FFmpeg command line tool
+- Online converters
+
+Free sound effects resources:
+- freesound.org
+- zapsplat.com
+- soundbible.com

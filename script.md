@@ -1,14 +1,20 @@
-THE DESYNC: FINAL SCRIPT
- Est. Playtime: 15 Minutes
+# THE DESYNC: SCRIPT
+
+Est. Playtime: 15 Minutes
+
 SYSTEM / IMPLEMENTATION RULES (Canonical):
 time_left starts at 15:00
+
 Each Interrogation (Kai/Trent/Lisa/Mina) consumes 2:00
+
 Turning Point triggers automatically at time_left = 07:30
+
 Final Selection triggers automatically at time_left = 01:00
+
 Win condition: Choose Mina + High Trust + B-Flat/Frequency Clue
 “Smash Panel” exposes a manual actuator relay (mechanical cycling access) even if the interface locks
 
-SCENE 1: THE AWAKENING (00:00 – 02:30)
+# SCENE 1: THE AWAKENING (00:00 – 02:30)
 (Visual: Pitch black. A low, throbbing bass sound, like a cello played with a rusted saw, fills the audio. It is uncomfortable.)
 
 Narrator: The world didn't end with a bang. It didn't end with a whimper. It ended with a hum.
@@ -39,7 +45,7 @@ Bunker AI: "Advisory: Inner Sanctum life support is damaged. It can sustain ONE 
 Xena: "Open the outer pane. Let's see who’s left of the world. One of them is the Neuro-Architect. I need to retrieve the key before I... before I forget my own name."
 (HUD Overlay: TIME LEFT: 15:00 | LATENCY: 32ms)
 
-SCENE 2: THE HUB (02:30 – 03:30)
+# SCENE 2: THE HUB (02:30 – 03:30)
 (Visual: The heavy blast doors hiss open. Behind a thick pane of reinforced glass, four people are huddled. The lighting is emergency red. The hum is louder here.)
 
 (Spatial Note: Xena stands in the inner control corridor. The survivors are in the outer airlock chamber behind reinforced glass “the outer pane.” The mist is pressing in from outside.)
@@ -58,9 +64,9 @@ Xena: "Silence! All of you! The Inner Sanctum life support is damaged. It can on
 
 [SYSTEM NOTE: The Player is now in the 'Hub'. They can click any character. Each interrogation consumes 2 minutes of game time. Turning Point triggers automatically when TIME LEFT reaches 07:30.]
 
-SCENE 3: THE DEEP INTERROGATIONS (03:30 – 10:00)
+# SCENE 3: THE DEEP INTERROGATIONS (03:30 – 10:00)
 
-OPTION A: KAI (The Seductive Logic)
+## OPTION A: KAI (The Seductive Logic)
 
 Kai: "Agent, use your eyes. Look at this selection. A mechanic shouting at glass like an animal. A singer lost in a fantasy. And a girl bleeding from her nose, already half-Desynced."
 
@@ -79,7 +85,7 @@ Bunker AI: "Advisory: Resonance carrier does not route through standard network 
 [CHOICE: CHALLENGE vs TRUST]
 
 
-1."Your sector fell in six hours. Your code failed."
+### 1."Your sector fell in six hours. Your code failed."
 
 Xena: "I saw the reports, Kai. The North Sector fell. If your firewalls were so perfect, why are you the only one standing here?"
 
@@ -89,7 +95,7 @@ Xena (Internal): He makes sense. He offers a solution I can understand. But he v
 
 (Result: DEDUCTION UP. You realize Kai is a trap.)
 
-2."You make a strong case. We need stability."
+### 2."You make a strong case. We need stability."
 
 Xena: "You're right. Mina looks like she's about to snap. I need someone who can type without shaking."
 
@@ -99,7 +105,7 @@ Kai: "Exactly. Pull me in. I’ll erect a firewall that will hide us from the si
 (HUD Overlay: TIME LEFT updates | LATENCY increases slightly)
 
 
-OPTION B: TRENT (The Physical Reality)
+## OPTION B: TRENT (The Physical Reality)
 
 Trent: "Are you done chatting with the suit? The gaskets are vibrating, Agent! Can't you feel that in your teeth? That buzzing?"
 
@@ -108,7 +114,7 @@ Xena: "Panic accelerates the Desync, Trent. Stand down and let me think."
 Trent: "I'm not panicking, I'm analyzing! I built these doors! Look at the seal. It's liquefying. Software gets hacked, Agent. Steel doesn't. When the lights go out, do you want to be typing on a keyboard, or do you want a mechanical lock that works?"
 
 [CHOICE: INVESTIGATE vs DISMISS]
-1. "What do you mean by a mechanical lock?"
+### 1. "What do you mean by a mechanical lock?"
 
 Xena: "Explain. If the software fails, how do we seal the door?"
 
@@ -120,7 +126,7 @@ Xena (Internal): A physical backdoor. He's crude, but he's right. If the softwar
 
 (Mechanical clarification: The “coolant plate housing” covers a dumb actuator relay, manual door cycling access. It’s a physical bypass if the interface locks.)
 
-2. "Back off the glass. That's an order."
+### 2. "Back off the glass. That's an order."
 
 Xena: "You're a maintenance tech, Trent. I need a scientist, not a janitor. Back off."
 
@@ -131,7 +137,7 @@ Trent: "Janitor? I'm the only reason this airlock hasn't decompressed yet! Fine.
 (HUD Overlay: TIME LEFT updates | LATENCY increases slightly)
 
 
-OPTION C: LISA (The Lore)
+## OPTION C: LISA (The Lore)
 
 Lisa: "You have the hum too, don't you Xena? I can hear it in your breathing. A low, mournful sound. It's beautiful, in a way."
 
@@ -144,7 +150,7 @@ Lisa: “I sang to the Core once, during calibration. It sang back.”
 
 [CHOICE: LISTEN vs DISMISS]
 
-1. "So how do we survive the song?"
+### 1. "So how do we survive the song?"
 
 Xena: "If it's a sound, it can be silenced. How?"
 
@@ -154,7 +160,7 @@ Xena (Internal): Harmonics. Not code. This matches what the Specialist is whispe
 
 (Result: FREQUENCY CLUE OBTAINED, LISA TRUST GOES UP)
 
-2. "I don't have time for poetry."
+### 2. "I don't have time for poetry."
 
 Xena: "The world is ending and you're talking about opera. Step back."
 
@@ -165,7 +171,7 @@ Lisa: "Pity. You're listening with your gun, not your ears. You'll die in silenc
 (HUD Overlay: TIME LEFT updates | LATENCY increases slightly)
 
 
-OPTION D: MINA (The Broken Specialist)
+## OPTION D: MINA (The Broken Specialist)
 
 Mina: "440 Hertz... no... 432... the bridge is open... they are walking through the bridge into my eyes... I can feel their feet..."
 
@@ -175,7 +181,7 @@ Bunker AI: "Advisory: Subject vocalizations indicate tuning references. Carrier 
 
 [CHOICE: EMPATHY vs FORCE]
 
-1. "Mina. Look at me. Breathe. You built the bridge. You can close it."
+### 1. "Mina. Look at me. Breathe. You built the bridge. You can close it."
 
 Xena (Softly): "Mina. I know it hurts. But you are the Architect. You know where the off switch is. Ignore the sky. Focus on my voice."
 
@@ -183,7 +189,7 @@ Mina (Calming down, weeping): "I... I built it to connect us. I didn't mean for 
 
 (Result: MINA TRUST UP. She stabilizes.)
 
-2. "Snap out of it! Give me the code!"
+### 2. "Snap out of it! Give me the code!"
 
 Xena (Shouting): "I don't have time for a breakdown! Give me the override sequence now! What is the code?!"
 
@@ -213,7 +219,7 @@ Kai: "No! Xena, stop him! He'll destroy the delicate circuits! We need that inte
 
 [CRITICAL CHOICE]
 
-1. "Let Trent smash the panel."
+### 1. "Let Trent smash the panel."
 
 Narrator: Trent swings the wrench with a primal scream. Sparks fly. The plastic housing shatters. The digital lock is broken, but the copper wires are exposed to the air.
 
@@ -223,7 +229,7 @@ Xena: "Good work. We have manual access."
 
 (Consequence: -1 Minute Time. Hardware Clue FORCE TRUE.)
 
-2. "Stop Trent. Protect the hardware."
+### 2. "Stop Trent. Protect the hardware."
 
 Narrator: You aim your weapon at Trent's chest. He freezes. He backs off, spitting on the floor.
 Trent: "Fine. Die with your pristine machine. But when that door stays shut, remember that you chose this."
@@ -387,4 +393,3 @@ Xena: "Stuck is better than dead."
 Narrator: You sit in the dark, listening to the silence. It is the most beautiful sound you have ever heard.
 
 [TRUE ENDING: HUMANITY SAVED]
-
