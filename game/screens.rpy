@@ -50,6 +50,32 @@ screen say(who, what):
     if not renpy.get_screen("hud"):
         use hud
 
+style namebox is default
+style say_label is default
+style say_dialogue is default
+style say_window is default
+
+style namebox:
+    xpos gui.name_xpos
+    ypos gui.name_ypos
+    xanchor gui.name_xalign
+
+style say_label:
+    size gui.name_text_size
+    font gui.name_text_font
+    color gui.accent_color
+
+style say_dialogue:
+    size gui.text_size
+    font gui.text_font
+
+style say_window:
+    xalign 0.5
+    xfill True
+    yalign gui.textbox_yalign
+    ysize gui.textbox_height
+    background "#000000cc"
+
 
 ## Choice screen with timer
 screen choice(items):
