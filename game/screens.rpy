@@ -111,17 +111,7 @@ screen main_menu():
 
             text "{size=60}{color=#00ffff}THE DESYNC{/color}{/size}" xalign 0.5
 
-            text "{size=24}Est. Playtime: 15 Minutes{/size}" xalign 0.5
-
-            null height 20
-
             textbutton _("Start Game") action Start()
-
-            textbutton _("Load Game") action ShowMenu("load")
-
-            textbutton _("Preferences") action ShowMenu("preferences")
-
-            textbutton _("About") action ShowMenu("about")
 
             textbutton _("Quit") action Quit(confirm=not main_menu)
 
@@ -154,27 +144,6 @@ style main_menu_version:
     properties gui.text_properties("version")
 
 
-## About screen
-screen about():
-    tag menu
-    
-    ## Use game_menu if it exists
-    use game_menu(_("About"), scroll="viewport"):
-        style_prefix "about"
-        vbox:
-            label "[config.name!t]"
-            text _("Version [config.version!t]\n")
-            text _("A psychological sci-fi horror interactive fiction about Agent Xena, the last firewall, who must choose which survivor to save in a bunker as humanity falls to a neural virus called The Desync.\n")
-            text _("Playtime: Approximately 15 minutes\n")
-            text _("Mechanics: Real-time timer, hub-and-spoke exploration, hidden variables affecting endings\n")
-            text _("Endings: 6 distinct endings based on your choices\n")
-
-style about_label is gui_label
-style about_label_text is gui_label_text
-style about_text is gui_text
-
-style about_label_text:
-    size gui.label_text_size
 
 
 ## Navigation screen (Minimal)
@@ -185,8 +154,6 @@ screen navigation():
         spacing gui.navigation_spacing
 
         textbutton _("Main Menu") action MainMenu()
-        textbutton _("Preferences") action ShowMenu("preferences")
-        textbutton _("About") action ShowMenu("about")
         if renpy.variant("pc"):
             textbutton _("Quit") action Quit()
 
@@ -238,29 +205,6 @@ screen game_menu(title, scroll=None, yinitial=0.0):
         key "game_menu" action ShowMenu("main_menu")
     else:
         key "game_menu" action Return()
-
-
-## Load/Save screens (Minimal)
-screen save():
-    tag menu
-    use game_menu(_("Save"), scroll="viewport"):
-        text _("Saving is currently disabled for timer integrity.") xalign 0.5
-
-screen load():
-    tag menu
-    use game_menu(_("Load"), scroll="viewport"):
-        text _("Loading is currently disabled for timer integrity.") xalign 0.5
-
-
-## Preferences screen (Minimal)
-screen preferences():
-    tag menu
-    use game_menu(_("Preferences"), scroll="viewport"):
-        vbox:
-            label _("Text Speed")
-            bar value Preference("text speed")
-            label _("Auto-Forward Time")
-            bar value Preference("auto-forward time")
 
 
 ## NVL screen for narrator text
