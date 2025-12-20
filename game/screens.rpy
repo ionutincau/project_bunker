@@ -97,7 +97,7 @@ screen main_menu():
 
     style_prefix "main_menu"
 
-    add gui.main_menu_background
+    add gui.main_menu_background xalign 0.5 yalign 0.5
 
     frame:
         xalign 0.5
@@ -111,9 +111,9 @@ screen main_menu():
 
             text "{size=60}{color=#00ffff}THE DESYNC{/color}{/size}" xalign 0.5
 
-            textbutton _("Start Game") action Start()
+            textbutton _("Start Game") action Start() xalign 0.5
 
-            textbutton _("Quit") action Quit(confirm=not main_menu)
+            textbutton _("Quit") action Quit(confirm=not main_menu) xalign 0.5
 
 
 style main_menu_frame is empty
@@ -123,9 +123,11 @@ style main_menu_title is main_menu_text
 style main_menu_version is main_menu_text
 
 style main_menu_frame:
-    xsize 420
+    xalign 0.5
+    yalign 0.5
     yfill True
-    background Frame(gui.main_menu_background, gui.main_menu_borders, tile=gui.main_menu_tile)
+    padding (40, 40)
+    background "#000000aa"
 
 style main_menu_vbox:
     xalign 0.5
@@ -136,6 +138,8 @@ style main_menu_vbox:
 
 style main_menu_text:
     properties gui.text_properties("main_menu", accent=True)
+    xalign 0.5
+    text_align 0.5
 
 style main_menu_title:
     properties gui.text_properties("title")
