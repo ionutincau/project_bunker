@@ -159,25 +159,17 @@ screen nvl(dialogue, items=None):
         style "nvl_window"
 
         vbox:
+            xalign 0.5
+            yalign 0.4
             spacing gui.nvl_spacing
-
-        if gui.nvl_height:
-
-            vpgrid:
-                cols 1
-                yinitial 1.0
-
-                use nvl_dialogue(dialogue)
-
-        else:
-
+            
             use nvl_dialogue(dialogue)
 
-        for i in items:
-
-            textbutton i.caption:
-                action i.action
-                style "nvl_button"
+            for i in items:
+                textbutton i.caption:
+                    action i.action
+                    style "nvl_button"
+                    xalign 0.5
 
     add SideImage() xalign 0.0 yalign 1.0
 
@@ -233,13 +225,11 @@ style nvl_label:
     text_align gui.nvl_name_xalign
 
 style nvl_dialogue:
-    xpos gui.nvl_text_xpos
-    xanchor gui.nvl_text_xalign
-    ypos gui.nvl_text_ypos
-    xsize gui.nvl_text_width
-    min_width gui.nvl_text_width
-    text_align gui.nvl_text_xalign
-    layout ("subtitle" if gui.nvl_text_xalign else "tex")
+    xalign 0.5
+    text_align 0.5
+    size 24
+    xsize 1200
+    layout "subtitle"
 
 style nvl_thought:
     xpos gui.nvl_thought_xpos
