@@ -50,17 +50,20 @@ label start:
     narrator "It started at the Global Research Hub. They called it \"The Bridge\", a neural patch designed to synchronize human thought. It was supposed to end loneliness. It was supposed to let us understand each other perfectly. Instead, it ended individuality."
     nvl clear
     
-    scene purple_sky at truecenter with dissolve
+    scene black
+    show purple_sky at truecenter with dissolve
     
     narrator "They call it THE DESYNC. A resonance cascade. A neurological glitch that tells your brain your body no longer belongs to you. Outside, the \"Standing People\" wait. Their minds are uploaded to a digital heaven. Their bodies are rotting in the rain."
     nvl clear
     
-    scene tower_pulse at truecenter with dissolve
+    scene black
+    show tower_pulse at truecenter with dissolve
     
     narrator "This bunker sits on the last hardline junction. If it falls, the signal jumps the repeater and takes the rest of the coastline."
     nvl clear
     
-    scene hud_boot at truecenter with dissolve
+    scene black
+    show hud_boot at truecenter with dissolve
     
     xena_internal "System Reboot... Neural Latency: 32ms... Visual Clarity: 68%%."
     
@@ -82,7 +85,8 @@ label start:
     jump hub_entry
 
 label hub_entry:
-    scene airlock_red at truecenter with dissolve
+    scene black
+    show airlock_red at truecenter with dissolve
     
     # Check if turning point should trigger
     if time_left <= 450 and not turning_point_triggered:
@@ -281,7 +285,8 @@ label turning_point:
     $ turning_point_triggered = True
     $ signal_penetration = 45
     
-    scene airlock_teal at truecenter with hpunch
+    scene black
+    show airlock_teal at truecenter with hpunch
     play sound "audio/glitch.ogg"
     
     ai "WARNING. SIGNAL PENETRATION 45%%. SYSTEM LOCKDOWN IMMINENT. NEURAL PROTECTION FAILING."
@@ -327,7 +332,8 @@ label deterioration:
     $ signal_penetration = 60
     $ neural_latency = 85
     
-    scene hud_glitch at truecenter with dissolve
+    scene black
+    show hud_glitch at truecenter with dissolve
     play sound "audio/distortion.ogg"
     
     xena_internal "I turn my head... and the world buffers. The wall is blue. No, the wall is screaming. Focus. Neural Latency: Critical. I need to save... who am I saving? Why am I here?"
@@ -337,7 +343,8 @@ label deterioration:
     xena "Get out of my head! I am not a file! I am a soldier!"
     
     play sound "audio/glass_crack.ogg"
-    scene glass_fracture at truecenter with vpunch
+    scene black
+    show glass_fracture at truecenter with vpunch
     
     lisa "The pitch is rising! It's modulating to C-Sharp! The song is getting angrier!"
     
@@ -353,7 +360,8 @@ label deterioration:
     jump final_selection
 
 label final_selection:
-    scene blast_doors at truecenter with dissolve
+    scene black
+    show blast_doors at truecenter with dissolve
     play sound "audio/door_grind.ogg"
     
     ai "FINAL SEAL IN 60 SECONDS. SELECT ONE ASSET FOR ENTRY."
@@ -386,7 +394,8 @@ label final_selection:
 # ===== ENDINGS =====
 
 label ending_kai:
-    scene sanctum_sealed at truecenter with dissolve
+    scene black
+    show sanctum_sealed at truecenter with dissolve
     
     narrator "The door seals. The screams of the others are cut off instantly."
     nvl clear
@@ -417,7 +426,8 @@ label ending_kai:
     return
 
 label ending_trent:
-    scene sanctum_sealed at truecenter with dissolve
+    scene black
+    show sanctum_sealed at truecenter with dissolve
     
     narrator "The door seals. Trent drops the wrench and rushes the terminal."
     nvl clear
@@ -444,7 +454,8 @@ label ending_trent:
     return
 
 label ending_lisa:
-    scene sanctum_sealed at truecenter with dissolve
+    scene black
+    show sanctum_sealed at truecenter with dissolve
     
     narrator "The door seals. Lisa walks calmly to the terminal, touching the screen."
     nvl clear
@@ -466,7 +477,8 @@ label ending_lisa:
     return
 
 label ending_mina:
-    scene sanctum_sealed at truecenter with dissolve
+    scene black
+    show sanctum_sealed at truecenter with dissolve
     
     narrator "The blast doors slam shut. You can hear Kai screaming \"PROTOCOL!\" and Trent cursing your name until the seal is airtight."
     nvl clear
