@@ -43,7 +43,6 @@ define gui.interface_text_color = "#ffffff"
 
 ## Main and Game Menu Backgrounds
 define gui.main_menu_background = "gui/main_menu.png"
-define gui.game_menu_background = "gui/game_menu.png"
 define gui.main_menu_borders = Borders(0, 0, 100, 0)
 define gui.main_menu_tile = False
 

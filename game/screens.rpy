@@ -150,65 +150,6 @@ style main_menu_version:
 
 
 
-## Navigation screen (Minimal)
-screen navigation():
-    vbox:
-        xpos gui.navigation_xpos
-        yalign 0.5
-        spacing gui.navigation_spacing
-
-        textbutton _("Main Menu") action MainMenu()
-        if renpy.variant("pc"):
-            textbutton _("Quit") action Quit()
-
-## Game Menu screen (Minimal)
-screen game_menu(title, scroll=None, yinitial=0.0):
-    if main_menu:
-        add gui.main_menu_background
-    else:
-        add gui.game_menu_background
-
-    frame:
-        xfill True
-        yfill True
-        background "#000000aa"
-
-    frame:
-        yfill True
-        xsize 400
-        background "#000000cc"
-        use navigation
-    
-    frame:
-        xpos 420
-        ypos 120
-        xsize 1400
-        ysize 900
-        background None
-        
-        if scroll == "viewport":
-            viewport:
-                yinitial yinitial
-                scrollbars "vertical"
-                mousewheel True
-                draggable True
-                side_yfill True
-                vbox:
-                    transclude
-        else:
-            vbox:
-                transclude
-    
-    label title:
-        xpos 420
-        ypos 40
-        text_size 60
-        text_color gui.accent_color
-
-    if main_menu:
-        key "game_menu" action ShowMenu("main_menu")
-    else:
-        key "game_menu" action Return()
 
 
 ## NVL screen for narrator text
