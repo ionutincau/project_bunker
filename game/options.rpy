@@ -88,7 +88,7 @@ define gui.choice_button_text_idle_color = "#cccccc"
 define gui.choice_button_text_hover_color = "#00ffff"
 
 ## NVL-Mode
-define gui.nvl_borders = Borders(0, 10, 0, 20)
+define gui.nvl_borders = Borders(0, 0, 0, 0)
 define gui.nvl_height = 115
 define gui.nvl_spacing = 10
 define gui.nvl_name_xpos = 430
