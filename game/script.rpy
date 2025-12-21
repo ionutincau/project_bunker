@@ -116,6 +116,7 @@ label hub_menu:
     if time_left <= 60:
         jump final_selection
     
+    nvl clear
     menu:
         "Who should I interrogate?"
         
@@ -157,6 +158,7 @@ label interrogate_kai:
     
     ai "Advisory: Resonance carrier does not route through standard network security layers."
     
+    nvl clear
     menu:
         "How should I respond to Kai?"
         
@@ -190,6 +192,7 @@ label interrogate_trent:
     
     trent "I'm not panicking, I'm analyzing! I built these doors! Look at the seal. It's liquefying. Software gets hacked, Agent. Steel doesn't. When the lights go out, do you want to be typing on a keyboard, or do you want a mechanical lock that works?"
     
+    nvl clear
     menu:
         "How should I respond to Trent?"
         
@@ -228,6 +231,7 @@ label interrogate_lisa:
     
     xena_internal "Even if her cosmology is poetry, the pitch part matches Mina."
     
+    nvl clear
     menu:
         "How should I respond to Lisa?"
         
@@ -262,6 +266,7 @@ label interrogate_mina:
     
     ai "Advisory: Subject vocalizations indicate tuning references. Carrier harmonic classification remains B-flat baseline (relative)."
     
+    nvl clear
     menu:
         "How should I respond to Mina?"
         
@@ -297,6 +302,7 @@ label turning_point:
     
     kai "No! Xena, stop him! He'll destroy the delicate circuits! We need that interface!"
     
+    nvl clear
     menu:
         "What should I do?"
         
@@ -376,6 +382,7 @@ label final_selection:
     
     ai "Reminder: Inner Sanctum supports ONE additional biological signature. Multi-entry will trigger oxygen failure."
     
+    nvl clear
     menu:
         "Who will you save?"
         
@@ -478,6 +485,7 @@ label ending_lisa:
 
 label ending_mina:
     scene black
+    nvl clear
     show sanctum_sealed at truecenter with dissolve
     
     narrator "The blast doors slam shut. You can hear Kai screaming \"PROTOCOL!\" and Trent cursing your name until the seal is airtight."
