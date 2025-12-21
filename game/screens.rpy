@@ -88,16 +88,38 @@ style say_window:
     background "#000000cc"
 
 
-## Choice screen with timer
 screen choice(items):
     style_prefix "choice"
 
     vbox:
+        xalign 0.5
+        yalign 0.6
+        spacing 15
+
         for i in items:
             textbutton i.caption action i.action
 
     ## Show HUD during choices
     use hud
+
+style choice_vbox is vbox
+style choice_button is button
+style choice_button_text is button_text
+
+style choice_button:
+    background Solid("#000000aa")
+    hover_background Solid("#00ffff33")
+    padding (40, 10)
+    xsize 800
+    xalign 0.5
+    
+style choice_button_text:
+    idle_color "#cccccc"
+    hover_color "#00ffff"
+    size 28
+    xalign 0.5
+    text_align 0.5
+    outlines [ (1, "#000000", 0, 0) ]
 
 
 ## Main Menu
