@@ -45,16 +45,20 @@ label start:
     
     nvl clear
     narrator "The world didn't end with a bang. It didn't end with a whimper. It ended with a hum."
+    nvl clear
     
     narrator "It started at the Global Research Hub. They called it \"The Bridge\", a neural patch designed to synchronize human thought. It was supposed to end loneliness. It was supposed to let us understand each other perfectly. Instead, it ended individuality."
+    nvl clear
     
     scene purple_sky with dissolve
     
     narrator "They call it THE DESYNC. A resonance cascade. A neurological glitch that tells your brain your body no longer belongs to you. Outside, the \"Standing People\" wait. Their minds are uploaded to a digital heaven. Their bodies are rotting in the rain."
+    nvl clear
     
     scene tower_pulse with dissolve
     
     narrator "This bunker sits on the last hardline junction. If it falls, the signal jumps the repeater and takes the rest of the coastline."
+    nvl clear
     
     scene hud_boot with dissolve
     
@@ -296,8 +300,10 @@ label turning_point:
             show panel_broken with vpunch
             
             narrator "Trent swings the wrench with a primal scream. Sparks fly. The plastic housing shatters. The digital lock is broken, but the copper wires are exposed to the air."
+            nvl clear
             
             narrator "The actuator relay is exposed—manual cycling is now possible even if the AI locks the interface."
+            nvl clear
             
             xena "Good work. We have manual access."
             
@@ -309,6 +315,7 @@ label turning_point:
             show xena_weapon with dissolve
             
             narrator "You aim your weapon at Trent's chest. He freezes. He backs off, spitting on the floor."
+            nvl clear
             
             trent "Fine. Die with your pristine machine. But when that door stays shut, remember that you chose this."
             
@@ -337,6 +344,7 @@ label deterioration:
     xena "Helmets on! If you don't have one, hold your breath!"
     
     narrator "The mist isn't just smoke. It's data. As it fills the room, you can hear the thoughts of the people outside. Screaming. Laughing. Praying. It's a chorus of a billion ghosts."
+    nvl clear
     
     xena_internal "My suit protects me, but they are exposed. They are fading. Mina is staring at the ceiling. Kai is typing on the air. I have seconds to make the choice."
     
@@ -381,6 +389,7 @@ label ending_kai:
     scene sanctum_sealed with dissolve
     
     narrator "The door seals. The screams of the others are cut off instantly."
+    nvl clear
     
     xena "Fix it, Kai! Put up the firewall! We have ten seconds!"
     
@@ -392,6 +401,7 @@ label ending_kai:
     play sound "audio/horror.ogg"
     
     narrator "Kai turns to look at you. His eyes are gone. Replaced by glowing teal sockets. He smiles, but it's not a human smile."
+    nvl clear
     
     kai "Thank you... for bringing us... inside. It is so clear in here."
     
@@ -400,6 +410,7 @@ label ending_kai:
     scene black with dissolve
     
     narrator "Your HUD dissolves. The last thing you feel is the cold, digital comfort of the hive mind."
+    nvl clear
     
     centered "{color=#00ffff}GAME OVER: THE TROJAN HORSE{/color}"
     
@@ -409,6 +420,7 @@ label ending_trent:
     scene sanctum_sealed with dissolve
     
     narrator "The door seals. Trent drops the wrench and rushes the terminal."
+    nvl clear
     
     trent "Alright, you piece of junk! I'm cutting the power! No power, no signal!"
     
@@ -416,6 +428,7 @@ label ending_trent:
     scene black with vpunch
     
     narrator "He rips the wires. The screen goes black. The lights die."
+    nvl clear
     
     trent "Ha! Got it! We're safe!"
     
@@ -424,6 +437,7 @@ label ending_trent:
     xena "You idiot! The shields were powered by that circuit!"
     
     narrator "Without the shield, the Desync floods the room instantly. You don't even have time to scream. You are both statues before you hit the floor."
+    nvl clear
     
     centered "{color=#00ffff}GAME OVER: BRUTE FORCE FAILURE{/color}"
     
@@ -433,6 +447,7 @@ label ending_lisa:
     scene sanctum_sealed with dissolve
     
     narrator "The door seals. Lisa walks calmly to the terminal, touching the screen."
+    nvl clear
     
     lisa "It's too late for machines, Xena."
     
@@ -444,6 +459,7 @@ label ending_lisa:
     scene teal_dissolve with dissolve
     
     narrator "She hums a lullaby as the teal light consumes you. It is peaceful. It is fatal."
+    nvl clear
     
     centered "{color=#00ffff}GAME OVER: A QUIET DEATH{/color}"
     
@@ -453,6 +469,7 @@ label ending_mina:
     scene sanctum_sealed with dissolve
     
     narrator "The blast doors slam shut. You can hear Kai screaming \"PROTOCOL!\" and Trent cursing your name until the seal is airtight."
+    nvl clear
     
     xena "We're in. Mina, the terminal is yours."
     
@@ -473,6 +490,7 @@ label ending_mina_fear:
     play sound "audio/desync.ogg"
     
     narrator "Mina collapses. Xena watches as Mina's skin turns gray and her eyes glow teal."
+    nvl clear
     
     centered "{color=#00ffff}GAME OVER: FEAR IS THE KILLER{/color}"
     
@@ -488,6 +506,7 @@ label ending_mina_wrong_song:
     show mina_typing with dissolve
     
     narrator "She types a random code. It fails. The bridge stays open."
+    nvl clear
     
     centered "{color=#00ffff}GAME OVER: THE WRONG SONG{/color}"
     
@@ -501,6 +520,7 @@ label ending_mina_true:
     show mina_concentration with dissolve
     
     narrator "Mina types the command. She opens her mouth and hums a tone that vibrates in your bones."
+    nvl clear
     
     mina "Sending the counter-resonance... NOW."
     
@@ -508,6 +528,7 @@ label ending_mina_true:
     scene white with vpunch
     
     narrator "A massive, bone-shaking thrum. Xena falls to her knees. Mina screams as the energy passes through her body."
+    nvl clear
     
     ai "Signal terminated. Atmosphere stabilizing. Connection severed."
     
@@ -518,6 +539,7 @@ label ending_mina_true:
     show mina_whitehair with dissolve
     
     narrator "Mina is slumped over the console. Her hair has turned stark white from the stress. She looks older."
+    nvl clear
     
     mina "It's quiet... Xena... I think I broke the bridge. We're safe. But we're stuck here. The door won't open again."
     
@@ -526,6 +548,7 @@ label ending_mina_true:
     scene dark_bunker with dissolve
     
     narrator "You sit in the dark, listening to the silence. It is the most beautiful sound you have ever heard."
+    nvl clear
     
     centered "{color=#00ff00}TRUE ENDING: HUMANITY SAVED{/color}"
     
