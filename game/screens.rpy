@@ -37,14 +37,19 @@ screen say(who, what):
     window:
         id "window"
 
-        if who is not None:
+        vbox:
+            xalign 0.5
+            ypos 20
+            xsize gui.dialogue_width
 
-            window:
-                id "namebox"
-                style "namebox"
-                text who id "who"
+            if who is not None:
+                window:
+                    style "namebox"
+                    text who id "who" xalign 0.5
+                
+                null height 5
 
-        text what id "what"
+            text what id "what" xalign 0.5
 
     ## Show HUD during dialogue
     if not renpy.get_screen("hud"):
@@ -56,18 +61,24 @@ style say_dialogue is default
 style say_window is default
 
 style namebox:
-    xpos gui.name_xpos
-    ypos gui.name_ypos
-    xanchor gui.name_xalign
+    xalign 0.5
+    background None
+    xpadding 0
+    ypadding 0
 
 style say_label:
     size gui.name_text_size
     font gui.name_text_font
     color gui.accent_color
+    xalign 0.5
+    text_align 0.5
+    yalign 0.5
 
 style say_dialogue:
     size gui.text_size
     font gui.text_font
+    text_align 0.5
+    xalign 0.5
 
 style say_window:
     xalign 0.5
