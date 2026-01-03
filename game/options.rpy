@@ -137,9 +137,9 @@ init python:
     config.allow_skipping = True
     config.fast_skipping = False
     
-    ## Disable Audio
-    config.has_music = False
-    config.has_sound = False
+    ## Enable Audio
+    config.has_music = True
+    config.has_sound = True
     config.has_voice = False
 
 ## Game Menu configuration

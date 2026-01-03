@@ -41,6 +41,7 @@ define mina = Character("Mina", color="#82c91e")
 
 # Start label
 label start:
+    play music "audio/background_music.mp3" fadein 2.0
     $ time_left = 900
     $ mina_trust = 0
     $ frequency_clue = False
