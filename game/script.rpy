@@ -1,6 +1,12 @@
 ﻿init python:
+    def label_callback(name, abnormal):
+        store.current_label = name
+    config.label_callback = label_callback
+
     def get_current_label():
-        return renpy.context().last_label
+        return getattr(store, "current_label", "start")
+
+default current_label = "start"
 
 # game variables
 default time_left = 900  # 15 minutes in seconds (15:00)
