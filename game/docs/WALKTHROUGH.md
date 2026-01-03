@@ -1,6 +1,7 @@
 # The Desync - Complete Walkthrough
 
 ## Overview
+
 This guide shows you how to reach each of the 6 endings. Each playthrough takes approximately 15 minutes.
 
 ---
@@ -9,7 +10,8 @@ This guide shows you how to reach each of the 6 endings. Each playthrough takes 
 
 **This is the ONLY winning ending where humanity survives.**
 
-### Step-by-Step:
+### Step-by-Step
+
 1. **Start the game** and watch the opening sequence
 2. **Hub Entry** - Meet all four survivors
 3. **Interrogate Lisa** first (costs 2:00)
@@ -23,7 +25,7 @@ This guide shows you how to reach each of the 6 endings. Each playthrough takes 
    - Result: Hardware clue (backup knowledge)
 6. **Optional: Interrogate Kai** to understand the trap
    - Choose either option (Kai won't help regardless)
-7. **Turning Point (07:30)** - Trent wants to smash panel
+7. **Turning Point (03:20)** - Trent wants to smash panel
    - Choose: **Either option works** (Let him OR Stop him)
 8. **Deterioration Scene** - Glass breaks, teal mist enters
 9. **Final Selection (01:00)** - The critical moment
@@ -35,6 +37,7 @@ This guide shows you how to reach each of the 6 endings. Each playthrough takes 
     - Mina's hair turns white from the trauma
 
 **Key Requirements:**
+
 - ✓ frequency_clue = True (from Lisa)
 - ✓ mina_trust ≥ 1 (from being kind to Mina)
 
@@ -42,11 +45,13 @@ This guide shows you how to reach each of the 6 endings. Each playthrough takes 
 
 ## 💀 ENDING 2: THE TROJAN HORSE (Bad Ending)
 
-### Quick Path:
+### Quick Path
+
 1. Skip or talk to anyone (doesn't matter)
 2. **Final Selection:** Choose **"Pull in KAI (The Admin)"**
 
-### What Happens:
+### What Happens
+
 - Kai tries to create a firewall
 - The code is recursive and eats his logic
 - Kai's eyes turn glowing teal
@@ -61,11 +66,13 @@ This guide shows you how to reach each of the 6 endings. Each playthrough takes 
 
 ## ⚡ ENDING 3: BRUTE FORCE FAILURE (Bad Ending)
 
-### Quick Path:
+### Quick Path
+
 1. Skip or talk to anyone (doesn't matter)
 2. **Final Selection:** Choose **"Pull in TRENT (The Mechanic)"**
 
-### What Happens:
+### What Happens
+
 - Trent rushes to the terminal
 - He cuts all power to stop the signal
 - Lights die, everything goes black
@@ -80,11 +87,13 @@ This guide shows you how to reach each of the 6 endings. Each playthrough takes 
 
 ## 🎵 ENDING 4: A QUIET DEATH (Bad Ending)
 
-### Quick Path:
+### Quick Path
+
 1. Skip or talk to anyone (doesn't matter)
 2. **Final Selection:** Choose **"Pull in LISA (The Singer)"**
 
-### What Happens:
+### What Happens
+
 - Lisa calmly walks to the terminal
 - She tells Xena it's too late for machines
 - Lisa explains she can't sing loud enough to drown out "god"
@@ -101,7 +110,8 @@ This guide shows you how to reach each of the 6 endings. Each playthrough takes 
 
 **Requirements:** Choose Mina BUT miss the frequency clue from Lisa
 
-### Step-by-Step:
+### Step-by-Step
+
 1. **Interrogate Mina** - Be kind to her
    - Choose: "Mina. Look at me. Breathe..."
    - Result: mina_trust increases ✓
@@ -110,7 +120,8 @@ This guide shows you how to reach each of the 6 endings. Each playthrough takes 
    - Result: frequency_clue = False ✗
 3. **Final Selection:** Choose **"Pull in MINA"**
 
-### What Happens:
+### What Happens
+
 - Mina is ready and willing to help
 - She asks: "What's the frequency? I need the counter-note!"
 - Xena doesn't know - you didn't get the clue
@@ -128,7 +139,8 @@ This guide shows you how to reach each of the 6 endings. Each playthrough takes 
 
 **Requirements:** Choose Mina BUT with low trust
 
-### Step-by-Step:
+### Step-by-Step
+
 1. **Get the frequency clue** - Talk to Lisa
    - Choose: "So how do we survive the song?"
    - Result: frequency_clue = True ✓
@@ -137,7 +149,8 @@ This guide shows you how to reach each of the 6 endings. Each playthrough takes 
    - Result: mina_trust decreases ✗
 3. **Final Selection:** Choose **"Pull in MINA"**
 
-### What Happens:
+### What Happens
+
 - You've chosen the right person
 - You have the frequency information
 - But Mina is too terrified and traumatized
@@ -167,21 +180,27 @@ This guide shows you how to reach each of the 6 endings. Each playthrough takes 
 ## 📊 Achievement Guide
 
 **Complete Story** - See all 6 endings  
+
 - Play through 6 times, choosing different options
 
 **True Survivor** - Get the True Ending  
+
 - Listen to Lisa, be kind to Mina, choose Mina
 
 **All Hope Lost** - See all bad endings  
+
 - Try choosing Kai, Trent, and Lisa
 
 **So Close** - Get the tragic failures  
+
 - Choose Mina without proper setup
 
 **Speed Reader** - Complete a playthrough in under 10 minutes  
+
 - Skip interrogations, rush to final choice
 
 **Thorough Investigator** - Talk to all 4 characters in one playthrough  
+
 - Each costs 2:00, need 8:00 minimum
 
 ---
@@ -199,10 +218,11 @@ This guide shows you how to reach each of the 6 endings. Each playthrough takes 
 ## 🎯 Speedrun Route (True Ending Only)
 
 **Minimum time path:**
-1. Start → Hub (2:30 elapsed)
-2. Talk to Lisa, get clue (4:30 elapsed)
-3. Talk to Mina, build trust (6:30 elapsed)
-4. Wait or talk to others until turning point triggers
+
+1. Start → Hub (2:30 elapsed / 12:30 left)
+2. Talk to Lisa, get clue (4:30 elapsed / 10:30 left)
+3. Talk to Mina, build trust (6:30 elapsed / 08:30 left)
+4. Talk to others / Wait until turning point triggers (05:00 left)
 5. Handle turning point
 6. Wait until 01:00
 7. Choose Mina → Win
@@ -216,16 +236,19 @@ This guide shows you how to reach each of the 6 endings. Each playthrough takes 
 The game is designed as a **deduction + empathy puzzle**:
 
 **Wrong Approaches:**
+
 - Pure logic (Kai) = Fails
 - Pure force (Trent) = Fails  
 - Pure emotion (Lisa) = Fails
 
 **Correct Approach:**
+
 - Right person (Mina = Architect)
 - Right knowledge (B-Flat frequency)
 - Right relationship (Trust/empathy)
 
 The game teaches that solving complex problems requires:
+
 1. **Expertise** - The right person for the job
 2. **Information** - Critical knowledge
 3. **Compassion** - Treating people with kindness

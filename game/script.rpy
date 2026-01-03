@@ -97,7 +97,7 @@ label hub_entry:
     show airlock_red at truecenter with dissolve
     
     # Check if turning point should trigger
-    if time_left <= 450 and not turning_point_triggered:
+    if time_left <= 300 and not turning_point_triggered:
         jump turning_point
     
     # Check if final selection should trigger
@@ -118,7 +118,7 @@ label hub_entry:
 
 label hub_menu:
     # Check time triggers again
-    if time_left <= 450 and not turning_point_triggered:
+    if time_left <= 300 and not turning_point_triggered:
         jump turning_point
     
     if time_left <= 60:
