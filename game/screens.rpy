@@ -2,6 +2,14 @@
 screen hud():
     zorder 100
     
+    # Timer to decrement time_left every second and trigger events
+    if time_left > 0:
+        timer 1.0 action [
+            SetVariable("time_left", time_left - 1),
+            If(time_left <= 450 and not turning_point_triggered, true=Jump("turning_point")),
+            If(time_left <= 60 and renpy.get_current_label() not in ["deterioration", "final_selection", "ending_kai", "ending_trent", "ending_lisa", "ending_mina"], true=Jump("deterioration"))
+        ] repeat True
+        
     frame:
         xalign 0.98
         yalign 0.02
@@ -24,7 +32,7 @@ screen hud():
             
             # Signal Penetration
             if signal_penetration > 0:
-                text "SIGNAL: [signal_penetration]%%" size 18 color "#00ffff"
+                text "SIGNAL: [signal_penetration]%" size 18 color "#00ffff"
 
 ## Say screen with HUD overlay
 screen say(who, what):
