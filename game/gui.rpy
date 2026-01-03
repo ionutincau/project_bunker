@@ -78,20 +78,6 @@ define gui.choice_button_text_idle_color = '#888888'
 define gui.choice_button_text_hover_color = "#ffffff"
 define gui.choice_button_text_insensitive_color = '#8888887f'
 
-define gui.slot_button_width = 414
-define gui.slot_button_height = 309
-define gui.slot_button_borders = Borders(15, 15, 15, 15)
-define gui.slot_button_text_size = 21
-define gui.slot_button_text_xalign = 0.5
-define gui.slot_button_text_idle_color = gui.idle_small_color
-define gui.slot_button_text_selected_idle_color = gui.selected_color
-define gui.slot_button_text_selected_hover_color = gui.hover_color
-
-define config.thumbnail_width = 384
-define config.thumbnail_height = 216
-
-define gui.file_slot_cols = 3
-define gui.file_slot_rows = 2
 
 define gui.navigation_xpos = 60
 define gui.skip_ypos = 15
@@ -101,7 +87,6 @@ define gui.navigation_spacing = 6
 define gui.pref_spacing = 15
 define gui.pref_button_spacing = 0
 define gui.page_spacing = 0
-define gui.slot_spacing = 15
 define gui.main_menu_text_xalign = 1.0
 
 define gui.frame_borders = Borders(6, 6, 6, 6)

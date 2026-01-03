@@ -148,6 +148,9 @@ screen main_menu():
 
             text "{size=60}{color=#00ffff}THE DESYNC{/color}{/size}" xalign 0.5
 
+            if not main_menu:
+                textbutton _("Resume") action Return() xalign 0.5
+
             textbutton _("Start Game") action Start() xalign 0.5
 
             textbutton _("Quit") action Quit(confirm=not main_menu) xalign 0.5

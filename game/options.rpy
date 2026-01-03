@@ -128,13 +128,10 @@ init python:
     ## Disable rollback (for timer integrity)
     config.rollback_enabled = False
     
-    ## Custom save name
-    config.save_directory = "TheDesync-1.0"
-    
-    ## Auto-save configuration
-    config.has_autosave = True
-    config.autosave_on_choice = True
-    config.autosave_frequency = 200
+    ## Disable Saving
+    config.save_directory = None
+    config.has_autosave = False
+    config.autosave_on_choice = False
     
     ## Skip Configuration
     config.allow_skipping = True
@@ -144,3 +141,6 @@ init python:
     config.has_music = False
     config.has_sound = False
     config.has_voice = False
+
+## Game Menu configuration
+define _game_menu_screen = "main_menu"
