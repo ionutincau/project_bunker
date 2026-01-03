@@ -87,7 +87,7 @@ label start:
     
     xena "Open the outer pane. Let's see who's left of the world. One of them is the Neuro-Architect. I need to retrieve the key before I... before I forget my own name."
     
-    $ time_left -= 150  # 2:30 elapsed
+    $ time_left -= 90  # 1:30 elapsed
     
     # Scene 2: The Hub
     jump hub_entry
@@ -141,14 +141,16 @@ label hub_menu:
             jump interrogate_mina
         
         "Wait and observe" if interrogated_kai or interrogated_trent or interrogated_lisa or interrogated_mina:
-            $ time_left -= 60
+            if interrogated_kai and interrogated_trent and interrogated_lisa and interrogated_mina:
+                jump turning_point
+            $ time_left -= 30
             $ signal_penetration += 5
             xena_internal "I need to be careful. Every moment counts."
             jump hub_menu
 
 label interrogate_kai:
     $ interrogated_kai = True
-    $ time_left -= 120  # 2 minutes
+    $ time_left -= 60  # 1 minute
     $ signal_penetration += 10
     $ neural_latency += 5
     
@@ -190,7 +192,7 @@ label interrogate_kai:
 
 label interrogate_trent:
     $ interrogated_trent = True
-    $ time_left -= 120  # 2 minutes
+    $ time_left -= 60  # 1 minute
     $ signal_penetration += 10
     $ neural_latency += 5
     
@@ -225,7 +227,7 @@ label interrogate_trent:
 
 label interrogate_lisa:
     $ interrogated_lisa = True
-    $ time_left -= 120  # 2 minutes
+    $ time_left -= 60  # 1 minute
     $ signal_penetration += 10
     $ neural_latency += 5
     
@@ -270,7 +272,7 @@ label interrogate_lisa:
 
 label interrogate_mina:
     $ interrogated_mina = True
-    $ time_left -= 120  # 2 minutes
+    $ time_left -= 60  # 1 minute
     $ signal_penetration += 10
     $ neural_latency += 5
     

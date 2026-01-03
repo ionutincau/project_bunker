@@ -1,22 +1,23 @@
 # The Desync - Design Reference
 
 ## Quick Stats
+
 - **Playtime:** 15 minutes
 - **Endings:** 6 total (1 true, 5 bad/tragic)
 - **Characters:** 4 survivors + Xena + AI
 - **Mechanics:** Timer, Trust, Clues
 
 ## Timer Flow
+
 ```
 15:00 → Start (Awakening)
-12:30 → Hub Entry (Meet survivors)
-10:30 → After first interrogation (-2:00)
-08:30 → After second interrogation (-2:00)
-07:30 → TURNING POINT (Panel smash choice)
-    06:30 → If panel smashed (-1:00 penalty)
-    07:30 → If panel protected
-11:30 → Deterioration (Glass breaks, mist enters)
-01:00 → FINAL SELECTION (Choose survivor)
+13:30 → Hub Entry (Meet survivors) (-1:30 skip)
+12:30 → After first interrogation (-1:00 deduction)
+11:30 → After second interrogation (-1:00 deduction)
+05:00 → TURNING POINT (Panel smash choice)
+    04:00 → If panel smashed (-1:00 penalty)
+    05:00 → If panel protected
+01:00 → FINAL SELECTION (Deterioration triggers)
 00:00 → Ending plays out
 ```
 
@@ -42,25 +43,31 @@
 ## Dialogue Choices & Outcomes
 
 ### Kai Interrogation
+
 - **Challenge:** "Your code failed" → kai_trust -1 (See through him)
 - **Trust:** "We need stability" → kai_trust +2 (Get misled)
 
 ### Trent Interrogation  
+
 - **Investigate:** "What mechanical lock?" → hardware_clue = True, trent_trust +2
 - **Dismiss:** "Back off" → trent_trust -1
 
 ### Lisa Interrogation
+
 - **Listen:** "How survive the song?" → **frequency_clue = True** ✓ (CRITICAL!)
 - **Dismiss:** "No time for poetry" → frequency_clue = False ✗
 
 ### Mina Interrogation
+
 - **Empathy:** "Breathe. You built this." → **mina_trust +2** ✓ (CRITICAL!)
 - **Force:** "Give me the code!" → mina_trust -2 ✗
 
 ## Turning Point (07:30)
+
 **Trent wants to smash the control panel**
 
 - **Let him smash:** hardware_clue = True, time_left -60 (manual access gained)
+- **Wait and observe:** time_left -30 (passive scouting)
 - **Stop him:** Panel protected, 100% reliant on Mina
 
 ## Final Selection (01:00)
@@ -123,12 +130,14 @@ TRUE ENDING: Humanity Saved
 ## Quick Player Advice
 
 **DO:**
+
 - ✓ Talk to everyone
 - ✓ Listen to Lisa (B-Flat clue is ESSENTIAL)
 - ✓ Be kind to Mina (trust is ESSENTIAL)
 - ✓ Choose Mina in the end
 
 **DON'T:**
+
 - ✗ Rush without talking to Lisa
 - ✗ Yell at Mina (breaks trust)
 - ✗ Choose Kai/Trent/Lisa in final selection
@@ -136,11 +145,13 @@ TRUE ENDING: Humanity Saved
 ## The Puzzle Logic
 
 **The Desync is NOT:**
+
 - A software bug (Kai's wrong)
 - A power problem (Trent's wrong)
 - Something Lisa can sing away (Lisa's wrong)
 
 **The Desync IS:**
+
 - A frequency/resonance cascade
 - Requires counter-frequency (B-Flat)
 - Only Mina can execute the solution

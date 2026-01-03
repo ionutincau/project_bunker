@@ -1,5 +1,14 @@
-should speak with all 4
-happy flow
+- game over: a quiet death background black
+- girl from template at the end mina_concentration
+- make all backgrounds black
+- long text does not fit
+- after choosing mina give enough time to read through the story
 
-// test
-game over: a quiet death background black
+// presenting
+
+- 6 endings
+- win if choose Mina + Mina trust + Lisa clue
+- ending when time runs out
+- time penalties for bad choices
+- time penalty for reboot
+- time penalty for talking with each person
