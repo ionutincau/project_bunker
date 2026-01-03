@@ -7,7 +7,7 @@ screen hud():
         timer 1.0 action [
             SetVariable("time_left", time_left - 1),
             If(time_left <= 450 and not turning_point_triggered, true=Jump("turning_point")),
-            If(time_left <= 60 and renpy.get_current_label() not in ["deterioration", "final_selection", "ending_kai", "ending_trent", "ending_lisa", "ending_mina"], true=Jump("deterioration"))
+            If(time_left <= 60 and get_current_label() not in ["deterioration", "final_selection", "ending_kai", "ending_trent", "ending_lisa", "ending_mina"], true=Jump("deterioration"))
         ] repeat True
         
     frame:

@@ -1,4 +1,8 @@
-﻿# game variables
+﻿init python:
+    def get_current_label():
+        return renpy.context().last_label
+
+# game variables
 default time_left = 900  # 15 minutes in seconds (15:00)
 default mina_trust = 0
 default frequency_clue = False
