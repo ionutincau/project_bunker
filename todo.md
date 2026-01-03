@@ -1,14 +1,11 @@
-script
-screens
-options
 
 AUDIO_INFO
-WALKTHROUGH
-README
-GAME_REFERENCE
-
+timer
 
 
 
 // test
 press esc while playing
+ending with girl from template
+game over: a quiet death backgound black
+the double %%

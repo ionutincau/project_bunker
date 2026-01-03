@@ -1,7 +1,4 @@
-﻿## The Desync - A Ren'Py Interactive Fiction
-## Based on screenplay by the user
-
-# Define game variables
+﻿# game variables
 default time_left = 900  # 15 minutes in seconds (15:00)
 default mina_trust = 0
 default frequency_clue = False
@@ -313,7 +310,7 @@ label turning_point:
             narrator "Trent swings the wrench with a primal scream. Sparks fly. The plastic housing shatters. The digital lock is broken, but the copper wires are exposed to the air."
             nvl clear
             
-            narrator "The actuator relay is exposed—manual cycling is now possible even if the AI locks the interface."
+            narrator "The actuator relay is exposed, manual cycling is now possible even if the AI locks the interface."
             nvl clear
             
             xena "Good work. We have manual access."

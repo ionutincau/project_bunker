@@ -1,8 +1,4 @@
-﻿################################################################################
-## Custom Screens for The Desync
-################################################################################
-
-## HUD Screen - Shows timer and neural status
+﻿## HUD Screen - timer and neural status
 screen hud():
     zorder 100
     
@@ -179,10 +175,6 @@ style main_menu_title:
 
 style main_menu_version:
     properties gui.text_properties("version")
-
-
-
-
 
 
 ## NVL screen for narrator text

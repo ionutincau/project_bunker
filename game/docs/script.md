@@ -54,7 +54,7 @@ Trent (Slamming a heavy wrench against the glass): "Open the damn door! Can’t 
 
 Kai (Shoving Trent back by the shoulder): "Stand down, you idiot! You’re going to shatter the integrity of the barrier! Agent! Agent, look at me! I am Kai, North Sector Admin. I have the clearance codes. I am the only asset worth saving!"
 
-(Visual detail: Kai’s fingers twitch, tapping an invisible keyboard—tap-tap-tap—he doesn’t notice.)
+(Visual detail: Kai’s fingers twitch, tapping an invisible keyboard, tap-tap-tap, he doesn’t notice.)
 
 Mina (Curled in the corner, clutching her ears, nose bleeding): "440 hertz... no... 432... B-flat... it's a B-flat... please make it stop..."
 

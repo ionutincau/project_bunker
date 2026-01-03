@@ -1,6 +1,4 @@
-﻿## options.rpy - Game configuration for The Desync
-
-## Game Information
+﻿## Game Information
 define config.name = _("The Desync")
 define config.version = "1.0"
 define gui.about = _("A psychological sci-fi horror interactive fiction.")

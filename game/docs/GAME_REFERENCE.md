@@ -1,4 +1,4 @@
-# The Desync - Design Reference Card
+# The Desync - Design Reference
 
 ## Quick Stats
 - **Playtime:** 15 minutes
