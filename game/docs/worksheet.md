@@ -63,22 +63,28 @@ Empathy: "Breathe. You built this." -> Outcome: mina_trust increases. She stabil
 Force: "Give me the code!" -> Outcome: mina_trust decreases. She enters shock (Locking out the good ending).
 
 Step 5: Endings
-The game has 4 distinct endings determined by who you choose in the final selection (time_left = 01:00) and the state of your variables.
+The game has 6 distinct endings determined by who you choose in the final selection (time_left = 01:00) and the state of your variables.
+
 Ending 1: The Trojan Horse (Bad Ending)
 Condition: Player chooses Kai.
 Outcome: Kai tries to upload a firewall. It fails because the threat isn't software. He gets possessed instantly, his eyes turn teal, and he thanks Xena for letting the hive mind inside. Xena is assimilated.
+
 Ending 2: Brute Force Failure (Bad Ending)
 Condition: Player chooses Trent.
 Outcome: Trent cuts the power to stop the signal. This inadvertently kills the magnetic shields. The Desync floods the room instantly. Both turn into statues.
+
 Ending 3: A Quiet Death (Bad Ending)
 Condition: Player chooses Lisa.
 Outcome: Lisa knows she can't stop it. She sings a lullaby to Xena as they both peacefully succumb to the virus.
+
 Ending 4: The Wrong Song (Tragic Failure)
 Condition: Player chooses Mina, but missed the Clue (frequency_clue = False).
 Outcome: Mina is ready but doesn't know the counter-note. She guesses wrong. The system fails. Humanity dies.
+
 Ending 5: Fear is the Killer (Tragic Failure)
 Condition: Player chooses Mina, but treated her poorly (mina_trust is Low).
 Outcome: Mina is too terrified to type. She collapses and desyncs before she can save the world.
+
 Ending 6: Humanity Saved (True Ending)
 Condition: Player chooses Mina + High Trust + Frequency Clue.
 Outcome: Xena tells Mina the note is "B-Flat." Mina inverts the frequency. A massive blast clears the signal.
