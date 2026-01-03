@@ -48,7 +48,7 @@ label start:
     
     # Scene 1: The Awakening
     scene black
-    play sound "audio/bass_hum.ogg" fadein 3.0
+
     
     nvl clear
     narrator "The world didn't end with a bang. It didn't end with a whimper. It ended with a hum."
@@ -299,7 +299,7 @@ label turning_point:
     
     scene black
     show airlock_teal at truecenter with hpunch
-    play sound "audio/glitch.ogg"
+
     
     ai "WARNING. SIGNAL PENETRATION 45%%. SYSTEM LOCKDOWN IMMINENT. NEURAL PROTECTION FAILING."
     
@@ -314,7 +314,7 @@ label turning_point:
         "What should I do?"
         
         "Let Trent smash the panel":
-            play sound "audio/smash.ogg"
+
             show panel_broken with vpunch
             
             narrator "Trent swings the wrench with a primal scream. Sparks fly. The plastic housing shatters. The digital lock is broken, but the copper wires are exposed to the air."
@@ -347,7 +347,7 @@ label deterioration:
     
     scene black
     show hud_glitch at truecenter with dissolve
-    play sound "audio/distortion.ogg"
+
     
     xena_internal "I turn my head... and the world buffers. The wall is blue. No, the wall is screaming. Focus. Neural Latency: Critical. I need to save... who am I saving? Why am I here?"
     
@@ -355,7 +355,7 @@ label deterioration:
     
     xena "Get out of my head! I am not a file! I am a soldier!"
     
-    play sound "audio/glass_crack.ogg"
+
     scene black
     show glass_fracture at truecenter with vpunch
     
@@ -375,7 +375,7 @@ label deterioration:
 label final_selection:
     scene black
     show blast_doors at truecenter with dissolve
-    play sound "audio/door_grind.ogg"
+
     
     ai "FINAL SEAL IN 60 SECONDS. SELECT ONE ASSET FOR ENTRY."
     
@@ -421,7 +421,7 @@ label ending_kai:
     kai "I... I can't stop it! The code is rewriting itself! It's recursive! It's eating my logic!"
     
     show kai_possessed with dissolve
-    play sound "audio/horror.ogg"
+
     
     narrator "Kai turns to look at you. His eyes are gone. Replaced by glowing teal sockets. He smiles, but it's not a human smile."
     nvl clear
@@ -448,7 +448,7 @@ label ending_trent:
     
     trent "Alright, you piece of junk! I'm cutting the power! No power, no signal!"
     
-    play sound "audio/wire_rip.ogg"
+
     scene black with vpunch
     
     narrator "He rips the wires. The screen goes black. The lights die."
@@ -480,7 +480,7 @@ label ending_lisa:
     
     lisa "I can't sing loud enough to drown out god, my dear. I'm just one voice. But I can sing you to sleep."
     
-    play music "audio/lullaby.ogg"
+
     scene teal_dissolve with dissolve
     
     narrator "She hums a lullaby as the teal light consumes you. It is peaceful. It is fatal."
@@ -514,7 +514,7 @@ label ending_mina_fear:
     mina "I'm too scared... I can't do it! Don't look at me!"
     
     show mina_collapse with dissolve
-    play sound "audio/desync.ogg"
+
     
     narrator "Mina collapses. Xena watches as Mina's skin turns gray and her eyes glow teal."
     nvl clear
@@ -551,7 +551,7 @@ label ending_mina_true:
     
     mina "Sending the counter-resonance... NOW."
     
-    play sound "audio/massive_thrum.ogg"
+
     scene white with vpunch
     
     narrator "A massive, bone-shaking thrum. Xena falls to her knees. Mina screams as the energy passes through her body."

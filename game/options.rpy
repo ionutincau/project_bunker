@@ -139,3 +139,8 @@ init python:
     ## Skip Configuration
     config.allow_skipping = True
     config.fast_skipping = False
+    
+    ## Disable Audio
+    config.has_music = False
+    config.has_sound = False
+    config.has_voice = False
