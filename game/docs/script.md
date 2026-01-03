@@ -15,6 +15,7 @@ Win condition: Choose Mina + High Trust + B-Flat/Frequency Clue
 “Smash Panel” exposes a manual actuator relay (mechanical cycling access) even if the interface locks
 
 # SCENE 1: THE AWAKENING (00:00 – 02:30)
+
 (Visual: Pitch black. A low, throbbing bass sound, like a cello played with a rusted saw, fills the audio. It is uncomfortable.)
 
 Narrator: The world didn't end with a bang. It didn't end with a whimper. It ended with a hum.
@@ -46,6 +47,7 @@ Xena: "Open the outer pane. Let's see who’s left of the world. One of them is 
 (HUD Overlay: TIME LEFT: 15:00 | LATENCY: 32ms)
 
 # SCENE 2: THE HUB (02:30 – 03:30)
+
 (Visual: The heavy blast doors hiss open. Behind a thick pane of reinforced glass, four people are huddled. The lighting is emergency red. The hum is louder here.)
 
 (Spatial Note: Xena stands in the inner control corridor. The survivors are in the outer airlock chamber behind reinforced glass “the outer pane.” The mist is pressing in from outside.)
@@ -84,7 +86,6 @@ Bunker AI: "Advisory: Resonance carrier does not route through standard network 
 
 [CHOICE: CHALLENGE vs TRUST]
 
-
 ### 1."Your sector fell in six hours. Your code failed."
 
 Xena: "I saw the reports, Kai. The North Sector fell. If your firewalls were so perfect, why are you the only one standing here?"
@@ -104,7 +105,6 @@ Kai: "Exactly. Pull me in. I’ll erect a firewall that will hide us from the si
 
 (HUD Overlay: TIME LEFT updates | LATENCY increases slightly)
 
-
 ## OPTION B: TRENT (The Physical Reality)
 
 Trent: "Are you done chatting with the suit? The gaskets are vibrating, Agent! Can't you feel that in your teeth? That buzzing?"
@@ -114,6 +114,7 @@ Xena: "Panic accelerates the Desync, Trent. Stand down and let me think."
 Trent: "I'm not panicking, I'm analyzing! I built these doors! Look at the seal. It's liquefying. Software gets hacked, Agent. Steel doesn't. When the lights go out, do you want to be typing on a keyboard, or do you want a mechanical lock that works?"
 
 [CHOICE: INVESTIGATE vs DISMISS]
+
 ### 1. "What do you mean by a mechanical lock?"
 
 Xena: "Explain. If the software fails, how do we seal the door?"
@@ -136,13 +137,18 @@ Trent: "Janitor? I'm the only reason this airlock hasn't decompressed yet! Fine.
 
 (HUD Overlay: TIME LEFT updates | LATENCY increases slightly)
 
-
 ## OPTION C: LISA (The Lore)
 
 Lisa: "You have the hum too, don't you Xena? I can hear it in your breathing. A low, mournful sound. It's beautiful, in a way."
 
 Xena: "I hear static. System interference. Nothing more. Keep it together, citizen."
-Lisa: "No. It's music. Do you know what a B-Flat is, Xena? It's the resonant frequency of the universe. Black holes hum in B-Flat 57 octaves below middle C. The AI isn't trying to kill us, Xena. It thinks it's helping us ascend. It's a choir... but it's singing too loud for our little minds."
+Lisa: "No. It's music. Do you know what a B-Flat is, Xena? It's the resonant frequency of the universe."
+
+Lisa: "Black holes hum in B-Flat 57 octaves below middle C."
+
+Lisa: "The AI isn't trying to kill us, Xena. It thinks it's helping us ascend."
+
+Lisa: "It's a choir... but it's singing too loud for our little minds."
 
 Lisa: “I sang to the Core once, during calibration. It sang back.”
 
@@ -169,7 +175,6 @@ Lisa: "Pity. You're listening with your gun, not your ears. You'll die in silenc
 (Result: CLUE MISSED, LISA TRUST GOES DOWN)
 
 (HUD Overlay: TIME LEFT updates | LATENCY increases slightly)
-
 
 ## OPTION D: MINA (The Broken Specialist)
 
@@ -198,10 +203,6 @@ Mina (Screaming): "I can't! It's too loud! The numbers are bleeding! Get away fr
 (Result: MINA TRUST DOWN. She enters shock.)
 
 (HUD Overlay: TIME LEFT updates | LATENCY increases slightly)
-
-
-
-
 
 SCENE 4: THE TURNING POINT (10:00 – 11:30)
 
@@ -236,7 +237,6 @@ Trent: "Fine. Die with your pristine machine. But when that door stays shut, rem
 
 (Consequence: The panel is safe, but you are now 100% reliant on Mina’s mental state.)
 
-
 SCENE 4.1: THE DETERIORATION (11:30 – 13:30)
 
 (Visual: The glitches get worse. Text on the HUD starts rearranging itself. "SAVE HER" turns into "SAVE US". "PROTOCOL" turns into "LET GO".)
@@ -261,7 +261,6 @@ Narrator: The mist isn't just smoke. It’s data. As it fills the room, you can 
 
 Xena (Internal): My suit protects me, but they are exposed. They are fading. Mina is staring at the ceiling. Kai is typing on the air. I have seconds to make the choice.
 
-
 SCENE 5: THE FINAL SELECTION (13:30 – 14:00)
 (Visual: The heavy blast doors begin to grind shut. The hum is deafening. The teal light is blinding.)
 
@@ -269,20 +268,20 @@ Bunker AI: "FINAL SEAL IN 60 SECONDS. SELECT ONE ASSET FOR ENTRY."
 
 Xena: "I can only take one! The rest of you... I'm sorry."
 
-Kai: "You can't leave me! I'm the Admin!" 
+Kai: "You can't leave me! I'm the Admin!"
 
-Trent: "Take me! I can fix it!" 
+Trent: "Take me! I can fix it!"
 
 Mina: "Please... I don't want to become a statue..."
 
 Bunker AI: "Reminder: Inner Sanctum supports ONE additional biological signature. Multi-entry will trigger oxygen failure."
 
 [FINAL CHOICE MENU - NO GOING BACK]
+
 1. Pull in KAI (The Security Admin)
 2. Pull in TRENT (The Mechanic)
 3. Pull in LISA (The Singer)
 4. Pull in MINA (The Architect)
-
 
 SCENE 6: THE ENDINGS (14:00 – 15:00)
 
@@ -303,7 +302,6 @@ Narrator: Your HUD dissolves. The last thing you feel is the cold, digital comfo
 
 [GAME OVER: THE TROJAN HORSE]
 
-
 IF YOU CHOOSE TRENT (THE AGGRESSOR)
 
 Narrator: The door seals. Trent drops the wrench and rushes the terminal.
@@ -322,7 +320,6 @@ Narrator: Without the shield, the Desync floods the room instantly. You don't ev
 
 [GAME OVER: BRUTE FORCE FAILURE]
 
-
 IF YOU CHOOSE LISA (THE POET)
 
 Narrator: The door seals. Lisa walks calmly to the terminal, touching the screen.
@@ -337,7 +334,6 @@ Narrator: She hums a lullaby as the teal light consumes you. It is peaceful. It 
 
 [GAME OVER: A QUIET DEATH]
 
-
 IF YOU CHOOSE MINA (THE SPECIALIST)
 
 Narrator: The blast doors slam shut. You can hear Kai screaming "PROTOCOL!" and Trent cursing your name until the seal is airtight.
@@ -351,7 +347,6 @@ Mina (Shaking, hands hovering over the keys): "I... I can't see the keyboard. My
 Mina: "I'm too scared... I can't do it! Don't look at me!"
 
 (Visual: Mina collapses. Xena watches as Mina's skin turns gray and her eyes glow teal.)
-
 
 [GAME OVER: FEAR IS THE KILLER]
 

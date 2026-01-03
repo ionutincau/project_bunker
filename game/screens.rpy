@@ -7,7 +7,8 @@ screen hud():
         timer 1.0 action [
             SetVariable("time_left", time_left - 1),
             If(time_left <= 300 and not turning_point_triggered, true=Jump("turning_point")),
-            If(time_left <= 60 and current_label not in ["deterioration", "final_selection", "ending_kai", "ending_trent", "ending_lisa", "ending_mina", "ending_mina_fear", "ending_mina_wrong_song", "ending_mina_true"], true=Jump("deterioration"))
+            If(time_left <= 60 and current_label not in ["timeout", "deterioration", "final_selection", "ending_kai", "ending_trent", "ending_lisa", "ending_mina", "ending_mina_fear", "ending_mina_wrong_song", "ending_mina_true"], true=Jump("deterioration")),
+            If(time_left <= 0 and current_label not in ["timeout", "ending_kai", "ending_trent", "ending_lisa", "ending_mina", "ending_mina_fear", "ending_mina_wrong_song", "ending_mina_true"], true=Jump("timeout"))
         ] repeat True
         
     frame:

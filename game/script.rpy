@@ -233,7 +233,13 @@ label interrogate_lisa:
     
     xena "I hear static. System interference. Nothing more. Keep it together, citizen."
     
-    lisa "No. It's music. Do you know what a B-Flat is, Xena? It's the resonant frequency of the universe. Black holes hum in B-Flat 57 octaves below middle C. The AI isn't trying to kill us, Xena. It thinks it's helping us ascend. It's a choir... but it's singing too loud for our little minds."
+    lisa "No. It's music. Do you know what a B-Flat is, Xena? It's the resonant frequency of the universe."
+    
+    lisa "Black holes hum in B-Flat 57 octaves below middle C."
+    
+    lisa "The AI isn't trying to kill us, Xena. It thinks it's helping us ascend."
+    
+    lisa "It's a choir... but it's singing too loud for our little minds."
     
     lisa "I sang to the Core once, during calibration. It sang back."
     
@@ -405,6 +411,12 @@ label final_selection:
         
         "Pull in Mina (The Architect)":
             jump ending_mina
+
+# ===== TIMEOUT =====
+
+label timeout:
+    ai "CRITICAL FAILURE. Atmospheric lockout complete. No biological signatures secured in Inner Sanctum."
+    jump ending_mina_fear
 
 # ===== ENDINGS =====
 
