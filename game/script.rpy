@@ -55,13 +55,15 @@ label start:
     narrator "The world didn't end with a bang. It didn't end with a whimper. It ended with a hum."
     nvl clear
     
-    narrator "It started at the Global Research Hub. They called it \"The Bridge\", a neural patch designed to synchronize human thought. It was supposed to end loneliness. It was supposed to let us understand each other perfectly. Instead, it ended individuality."
+    narrator "It started at the Global Research Hub. They called it \"The Bridge\", a neural patch designed to synchronize human thought."
+    narrator "It was supposed to end loneliness. It was supposed to let us understand each other perfectly. Instead, it ended individuality."
     nvl clear
     
     scene black
     show purple_sky at truecenter with dissolve
     
-    narrator "They call it THE DESYNC. A resonance cascade. A neurological glitch that tells your brain your body no longer belongs to you. Outside, the \"Standing People\" wait. Their minds are uploaded to a digital heaven. Their bodies are rotting in the rain."
+    narrator "They call it THE DESYNC. A resonance cascade. A neurological glitch that tells your brain your body no longer belongs to you."
+    narrator "Outside, the \"Standing People\" wait. Their minds are uploaded to a digital heaven. Their bodies are rotting in the rain."
     nvl clear
     
     scene black
@@ -106,7 +108,8 @@ label hub_entry:
     
     trent "Open the damn door! Can't you see the mist?! It's eating the seals! I can hear the rubber dissolving!"
     
-    kai "Stand down, you idiot! You're going to shatter the integrity of the barrier! Agent! Agent, look at me! I am Kai, North Sector Admin. I have the clearance codes. I am the only asset worth saving!"
+    kai "Stand down, you idiot! You're going to shatter the integrity of the barrier!"
+    kai "Agent! Agent, look at me! I am Kai, North Sector Admin. I have the clearance codes. I am the only asset worth saving!"
     
     mina "440 hertz... no... 432... B-flat... it's a B-flat... please make it stop..."
     
@@ -158,7 +161,9 @@ label interrogate_kai:
     
     xena "The girl is the suspected Architect. She has the technical knowledge."
     
-    kai "The girl is unstable! Look at her tremors. She's unresponsive. You're going to bet the fate of the human race, and your own life, on someone who can't even stand up? I ran the North Sector. I held the line for six hours longer than anyone else."
+    kai "The girl is unstable! Look at her tremors. She's unresponsive."
+    kai "You're going to bet the fate of the human race, and your own life, on someone who can't even stand up?"
+    kai "I ran the North Sector. I held the line for six hours longer than anyone else."
     
     show kai_interface with dissolve
     
@@ -175,7 +180,9 @@ label interrogate_kai:
         "\"Your sector fell in six hours. Your code failed.\"":
             xena "I saw the reports, Kai. The North Sector fell. If your firewalls were so perfect, why are you the only one standing here?"
             
-            kai "It failed because people panicked! They tried to 'feel' the signal! They tried to negotiate with it! I survived because I followed protocol. I isolated the nodes. I cut the hardlines. Protocol saves lives, Xena. Emotion gets you killed. I can write a script to mask this bunker right now. I am the safe bet."
+            kai "It failed because people panicked! They tried to 'feel' the signal! They tried to negotiate with it!"
+            kai "I survived because I followed protocol. I isolated the nodes. I cut the hardlines."
+            kai "Protocol saves lives, Xena. Emotion gets you killed. I can write a script to mask this bunker right now. I am the safe bet."
             
             xena_internal "He makes sense. He offers a solution I can understand. But he views the Desync as a bug, not a flood. He's too rigid. He's a bureaucrat fighting a god."
             
@@ -200,7 +207,9 @@ label interrogate_trent:
     
     xena "Panic accelerates the Desync, Trent. Stand down and let me think."
     
-    trent "I'm not panicking, I'm analyzing! I built these doors! Look at the seal. It's liquefying. Software gets hacked, Agent. Steel doesn't. When the lights go out, do you want to be typing on a keyboard, or do you want a mechanical lock that works?"
+    trent "I'm not panicking, I'm analyzing! I built these doors! Look at the seal. It's liquefying."
+    trent "Software gets hacked, Agent. Steel doesn't."
+    trent "When the lights go out, do you want to be typing on a keyboard, or do you want a mechanical lock that works?"
     
     nvl clear
     menu:
@@ -209,7 +218,9 @@ label interrogate_trent:
         "\"What do you mean by a mechanical lock?\"":
             xena "Explain. If the software fails, how do we seal the door?"
             
-            trent "The terminal inside... it's networked, right? If the AI takes it over, you're locked out. But there's a manual override switch under the primary coolant plate. You have to rip the steel housing off to get to it. I have the wrench. I have the strength. You need me."
+            trent "The terminal inside... it's networked, right? If the AI takes it over, you're locked out."
+            trent "But there's a manual override switch under the primary coolant plate. You have to rip the steel housing off to get to it."
+            trent "I have the wrench. I have the strength. You need me."
             
             xena_internal "A physical backdoor. He's crude, but he's right. If the software fails, brute force is my only option."
             
@@ -254,7 +265,9 @@ label interrogate_lisa:
         "\"So how do we survive the song?\"":
             xena "If it's a sound, it can be silenced. How?"
             
-            lisa "You can't silence it. You have to harmonize with it. You need to interrupt the harmony. You don't need a shield. You need a counter-note. A frequency that cancels a B-Flat. Find the note, Xena. Or you're just another instrument."
+            lisa "You can't silence it. You have to harmonize with it. You need to interrupt the harmony."
+            lisa "You don't need a shield. You need a counter-note. A frequency that cancels a B-Flat."
+            lisa "Find the note, Xena. Or you're just another instrument."
             
             xena_internal "Harmonics. Not code. This matches what the Specialist is whispering. Kai is trying to build a wall; Lisa is telling me how to break the wave."
             
@@ -289,7 +302,9 @@ label interrogate_mina:
         "\"Mina. Look at me. Breathe. You built the bridge. You can close it.\"":
             xena "Mina. I know it hurts. But you are the Architect. You know where the off switch is. Ignore the sky. Focus on my voice."
             
-            mina "I... I built it to connect us. I didn't mean for this to happen. I can close it... but I need to hear the end of the song. I need to know the frequency. Can you protect me while I listen?"
+            mina "I... I built it to connect us. I didn't mean for this to happen."
+            mina "I can close it... but I need to hear the end of the song. I need to know the frequency."
+            mina "Can you protect me while I listen?"
             
             $ mina_trust += 2
             
@@ -372,10 +387,12 @@ label deterioration:
     
     xena "Helmets on! If you don't have one, hold your breath!"
     
-    narrator "The mist isn't just smoke. It's data. As it fills the room, you can hear the thoughts of the people outside. Screaming. Laughing. Praying. It's a chorus of a billion ghosts."
+    narrator "The mist isn't just smoke. It's data."
+    narrator "As it fills the room, you can hear the thoughts of the people outside. Screaming. Laughing. Praying. It's a chorus of a billion ghosts."
     nvl clear
     
-    xena_internal "My suit protects me, but they are exposed. They are fading. Mina is staring at the ceiling. Kai is typing on the air. I have seconds to make the choice."
+    xena_internal "My suit protects me, but they are exposed. They are fading."
+    xena_internal "Mina is staring at the ceiling. Kai is typing on the air. I have seconds to make the choice."
     
     $ time_left = 60  # Force to final selection
     
@@ -510,7 +527,8 @@ label ending_mina:
     nvl clear
     show sanctum_sealed at truecenter with dissolve
     
-    narrator "The blast doors slam shut. You can hear Kai screaming \"PROTOCOL!\" and Trent cursing your name until the seal is airtight."
+    narrator "The blast doors slam shut."
+    narrator "You can hear Kai screaming \"PROTOCOL!\" and Trent cursing your name until the seal is airtight."
     nvl clear
     
     xena "We're in. Mina, the terminal is yours."
@@ -569,7 +587,8 @@ label ending_mina_true:
 
     scene white with vpunch
     
-    narrator "A massive, bone-shaking thrum. Xena falls to her knees. Mina screams as the energy passes through her body."
+    narrator "A massive, bone-shaking thrum. Xena falls to her knees."
+    narrator "Mina screams as the energy passes through her body."
     nvl clear
     
     ai "Signal terminated. Atmosphere stabilizing. Connection severed."
@@ -580,7 +599,8 @@ label ending_mina_true:
     
     show mina_whitehair with dissolve
     
-    narrator "Mina is slumped over the console. Her hair has turned stark white from the stress. She looks older."
+    narrator "Mina is slumped over the console."
+    narrator "Her hair has turned stark white from the stress. She looks older."
     nvl clear
     
     mina "It's quiet... Xena... I think I broke the bridge. We're safe. But we're stuck here. The door won't open again."
