@@ -212,6 +212,8 @@ label interrogate_trent:
     $ signal_penetration += 10
     $ neural_latency += 5
     
+    show trent_interrogation with dissolve
+
     trent "Are you done chatting with the suit? The gaskets are vibrating, Agent! Can't you feel that in your teeth? That buzzing?"
     
     xena "Panic accelerates the Desync, Trent. Stand down and let me think."
