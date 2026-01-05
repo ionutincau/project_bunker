@@ -1,5 +1,4 @@
 image black = Solid("#000000")
-image white = Solid("#ffffff")
 image dark_bunker = Solid("#050510")
 image teal_dissolve = Solid("#00666699")
 image waveform_overlay = Solid("#00333366")

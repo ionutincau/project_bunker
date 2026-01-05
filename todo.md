@@ -1,6 +1,5 @@
 - game over: a quiet death background black
 - girl from template at the end mina_concentration
-- make all backgrounds black
 - after choosing mina give enough time to read through the story
 
 // presenting

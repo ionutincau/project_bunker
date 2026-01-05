@@ -585,7 +585,7 @@ label ending_mina_true:
     mina "Sending the counter-resonance... NOW."
     
 
-    scene white with vpunch
+    scene black with vpunch
     
     narrator "A massive, bone-shaking thrum. Xena falls to her knees."
     narrator "Mina screams as the energy passes through her body."
