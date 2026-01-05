@@ -127,7 +127,10 @@ label hub_menu:
     if time_left <= 60:
         jump final_selection
     
+    scene black
+    show airlock_red at truecenter with dissolve
     nvl clear
+
     menu:
         "Who should I interrogate?"
         
@@ -157,6 +160,8 @@ label interrogate_kai:
     $ signal_penetration += 10
     $ neural_latency += 5
     
+    show kai_interrogation with dissolve
+    
     kai "Agent, use your eyes. Look at this selection. A mechanic shouting at glass like an animal. A singer lost in a fantasy. And a girl bleeding from her nose, already half-Desynced."
     
     xena "The girl is the suspected Architect. She has the technical knowledge."
@@ -178,6 +183,8 @@ label interrogate_kai:
         "How should I respond to Kai?"
         
         "\"Your sector fell in six hours. Your code failed.\"":
+            show kai_code_failed with dissolve
+
             xena "I saw the reports, Kai. The North Sector fell. If your firewalls were so perfect, why are you the only one standing here?"
             
             kai "It failed because people panicked! They tried to 'feel' the signal! They tried to negotiate with it!"
@@ -189,6 +196,8 @@ label interrogate_kai:
             $ kai_trust -= 1
             
         "\"You make a strong case. We need stability.\"":
+            show kai_strong_case with dissolve
+
             xena "You're right. Mina looks like she's about to snap. I need someone who can type without shaking."
             
             kai "Exactly. Pull me in. I'll erect a firewall that will hide us from the signal forever. Just open the door."
