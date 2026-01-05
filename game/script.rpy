@@ -577,8 +577,6 @@ label ending_mina_true:
     
     mina "B-Flat... yes. I hear it. I can see the wave."
     
-    show mina_concentration with dissolve
-    
     narrator "Mina types the command. She opens her mouth and hums a tone that vibrates in your bones."
     nvl clear
     
