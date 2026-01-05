@@ -513,7 +513,8 @@ label ending_lisa:
     lisa "I can't sing loud enough to drown out god, my dear. I'm just one voice. But I can sing you to sleep."
     
 
-    scene teal_dissolve with dissolve
+    scene black
+    show teal_dissolve with dissolve
     
     narrator "She hums a lullaby as the teal light consumes you. It is peaceful. It is fatal."
     nvl clear
@@ -610,6 +611,6 @@ label ending_mina_true:
     narrator "You sit in the dark, listening to the silence. It is the most beautiful sound you have ever heard."
     nvl clear
     
-    centered "{color=#00ff00}TRUE ENDING: HUMANITY SAVED{/color}"
+    centered "{color=#00ff00}HUMANITY SAVED{/color}"
     
     return

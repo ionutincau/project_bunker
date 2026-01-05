@@ -1,6 +1,3 @@
-- game over: a quiet death background black
-- after choosing mina give enough time to read through the story
-
 // presenting
 
 - 6 endings
