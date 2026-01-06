@@ -399,13 +399,11 @@ label deterioration:
     scene black
     show hud_glitch at truecenter with dissolve
 
-    
     xena_internal "I turn my head... and the world buffers. The wall is blue. No, the wall is screaming. Focus. Neural Latency: Critical. I need to save... who am I saving? Why am I here?"
     
     ai "Xena... it's warm in here. Why are you fighting? The data is beautiful. Just open the helmet."
     
     xena "Get out of my head! I am not a file! I am a soldier!"
-    
 
     scene black
     show glass_fracture at truecenter with vpunch
