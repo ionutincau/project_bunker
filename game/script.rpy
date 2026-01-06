@@ -466,7 +466,7 @@ label timeout:
 
 label ending_kai:
     scene black
-    show sanctum_sealed at truecenter with dissolve
+    show pull_kay at truecenter with dissolve
     
     narrator "The door seals. The screams of the others are cut off instantly."
     nvl clear
@@ -478,7 +478,6 @@ label ending_kai:
     kai "I... I can't stop it! The code is rewriting itself! It's recursive! It's eating my logic!"
     
     show kai_possessed with dissolve
-
     
     narrator "Kai turns to look at you. His eyes are gone. Replaced by glowing teal sockets. He smiles, but it's not a human smile."
     nvl clear
@@ -498,13 +497,12 @@ label ending_kai:
 
 label ending_trent:
     scene black
-    show sanctum_sealed at truecenter with dissolve
+    show pull_trent at truecenter with dissolve
     
     narrator "The door seals. Trent drops the wrench and rushes the terminal."
     nvl clear
     
     trent "Alright, you piece of junk! I'm cutting the power! No power, no signal!"
-    
 
     scene black with vpunch
     
@@ -536,7 +534,6 @@ label ending_lisa:
     xena "Do something! Sing the note! Save us!"
     
     lisa "I can't sing loud enough to drown out god, my dear. I'm just one voice. But I can sing you to sleep."
-    
 
     scene black
     show teal_dissolve with dissolve
