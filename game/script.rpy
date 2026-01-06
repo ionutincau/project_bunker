@@ -466,7 +466,7 @@ label timeout:
 
 label ending_kai:
     scene black
-    show pull_kay at truecenter with dissolve
+    show pull_kai at truecenter with dissolve
     
     narrator "The door seals. The screams of the others are cut off instantly."
     nvl clear
@@ -536,7 +536,6 @@ label ending_lisa:
     lisa "I can't sing loud enough to drown out god, my dear. I'm just one voice. But I can sing you to sleep."
 
     scene black
-    show teal_dissolve with dissolve
     
     narrator "She hums a lullaby as the teal light consumes you. It is peaceful. It is fatal."
     nvl clear
