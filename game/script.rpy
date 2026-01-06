@@ -227,6 +227,8 @@ label interrogate_trent:
         "How should I respond to Trent?"
         
         "\"What do you mean by a mechanical lock?\"":
+            show trent_mechanical_lock with dissolve
+
             xena "Explain. If the software fails, how do we seal the door?"
             
             trent "The terminal inside... it's networked, right? If the AI takes it over, you're locked out."
@@ -239,6 +241,8 @@ label interrogate_trent:
             $ trent_trust += 2
             
         "\"Back off the glass. That's an order.\"":
+            show trent_back_off with dissolve
+
             xena "You're a maintenance tech, Trent. I need a scientist, not a janitor. Back off."
             
             trent "Janitor? I'm the only reason this airlock hasn't decompressed yet! Fine. When that glass breaks, don't come crying to me to fix it. Die with your pristine machine."
@@ -253,6 +257,8 @@ label interrogate_lisa:
     $ signal_penetration += 10
     $ neural_latency += 5
     
+    show lisa_interrogation with dissolve
+
     lisa "You have the hum too, don't you Xena? I can hear it in your breathing. A low, mournful sound. It's beautiful, in a way."
     
     xena "I hear static. System interference. Nothing more. Keep it together, citizen."
@@ -274,6 +280,8 @@ label interrogate_lisa:
         "How should I respond to Lisa?"
         
         "\"So how do we survive the song?\"":
+            show lisa_poetry with dissolve
+
             xena "If it's a sound, it can be silenced. How?"
             
             lisa "You can't silence it. You have to harmonize with it. You need to interrupt the harmony."
@@ -286,6 +294,8 @@ label interrogate_lisa:
             $ lisa_trust += 2
             
         "\"I don't have time for poetry.\"":
+            show lisa_poetry with dissolve
+
             xena "The world is ending and you're talking about opera. Step back."
             
             lisa "Pity. You're listening with your gun, not your ears. You'll die in silence."
@@ -300,6 +310,8 @@ label interrogate_mina:
     $ signal_penetration += 10
     $ neural_latency += 5
     
+    show mina_interrogation with dissolve
+
     mina "440 Hertz... no... 432... the bridge is open... they are walking through the bridge into my eyes... I can feel their feet..."
     
     xena_internal "She is the Neuro-Architect. She built the Core. But her mind is shattering. She's bleeding from the nose, a sign of advanced signal penetration."
@@ -311,6 +323,8 @@ label interrogate_mina:
         "How should I respond to Mina?"
         
         "\"Mina. Look at me. Breathe. You built the bridge. You can close it.\"":
+            show mina_code with dissolve
+
             xena "Mina. I know it hurts. But you are the Architect. You know where the off switch is. Ignore the sky. Focus on my voice."
             
             mina "I... I built it to connect us. I didn't mean for this to happen."
@@ -320,6 +334,8 @@ label interrogate_mina:
             $ mina_trust += 2
             
         "\"Snap out of it! Give me the code!\"":
+            show mina_code with dissolve
+
             xena "I don't have time for a breakdown! Give me the override sequence now! What is the code?!"
             
             mina "I can't! It's too loud! The numbers are bleeding! Get away from me! You sound like them! You sound like the machine!"
