@@ -366,7 +366,7 @@ label turning_point:
         
         "Let Trent smash the panel":
 
-            show panel_broken with vpunch
+            show turning_point_allow_trent with vpunch
             
             narrator "Trent swings the wrench with a primal scream. Sparks fly. The plastic housing shatters. The digital lock is broken, but the copper wires are exposed to the air."
             nvl clear
@@ -381,7 +381,7 @@ label turning_point:
             $ panel_smashed = True
             
         "Stop Trent. Protect the hardware.":
-            show xena_weapon with dissolve
+            show turning_point_deny_trent with vpunch
             
             narrator "You aim your weapon at Trent's chest. He freezes. He backs off, spitting on the floor."
             nvl clear
