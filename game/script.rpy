@@ -503,8 +503,6 @@ label ending_trent:
     nvl clear
     
     trent "Alright, you piece of junk! I'm cutting the power! No power, no signal!"
-
-    scene black with vpunch
     
     narrator "He rips the wires. The screen goes black. The lights die."
     nvl clear
@@ -516,15 +514,17 @@ label ending_trent:
     xena "You idiot! The shields were powered by that circuit!"
     
     narrator "Without the shield, the Desync floods the room instantly. You don't even have time to scream. You are both statues before you hit the floor."
-    nvl clear
     
+    nvl clear
+    scene black with vpunch
+
     centered "{color=#00ffff}GAME OVER: BRUTE FORCE FAILURE{/color}"
     
     return
 
 label ending_lisa:
     scene black
-    show sanctum_sealed at truecenter with dissolve
+    show pull_lisa at truecenter with dissolve
     
     narrator "The door seals. Lisa walks calmly to the terminal, touching the screen."
     nvl clear
