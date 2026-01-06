@@ -548,7 +548,6 @@ label ending_lisa:
 label ending_mina:
     scene black
     nvl clear
-    show sanctum_sealed at truecenter with dissolve
     
     narrator "The blast doors slam shut."
     narrator "You can hear Kai screaming \"PROTOCOL!\" and Trent cursing your name until the seal is airtight."
@@ -558,7 +557,6 @@ label ending_mina:
     
     mina "I... I can't see the keyboard. My eyes are burning. The song... it's crushing me."
     
-    # Check conditions
     if mina_trust < 1:
         jump ending_mina_fear
     elif not frequency_clue:
@@ -570,7 +568,6 @@ label ending_mina_fear:
     mina "I'm too scared... I can't do it! Don't look at me!"
     
     show mina_collapse with dissolve
-
     
     narrator "Mina collapses. Xena watches as Mina's skin turns gray and her eyes glow teal."
     nvl clear
@@ -586,7 +583,7 @@ label ending_mina_wrong_song:
     
     mina "I can't guess! There are millions of tones!"
     
-    show mina_typing with dissolve
+    show mina_xena_failed_frequency with dissolve
     
     narrator "She types a random code. It fails. The bridge stays open."
     nvl clear
@@ -596,6 +593,8 @@ label ending_mina_wrong_song:
     return
 
 label ending_mina_true:
+    show mina_energy with dissolve
+
     xena "It's a B-Flat, Mina! The universe is humming in B-Flat! Invert the frequency!"
     
     mina "B-Flat... yes. I hear it. I can see the wave."
@@ -604,7 +603,6 @@ label ending_mina_true:
     nvl clear
     
     mina "Sending the counter-resonance... NOW."
-    
 
     scene black with vpunch
     
@@ -618,7 +616,7 @@ label ending_mina_true:
     
     xena "Mina?"
     
-    show mina_whitehair with dissolve
+    show mina_good_ending with dissolve
     
     narrator "Mina is slumped over the console."
     narrator "Her hair has turned stark white from the stress. She looks older."
@@ -627,8 +625,6 @@ label ending_mina_true:
     mina "It's quiet... Xena... I think I broke the bridge. We're safe. But we're stuck here. The door won't open again."
     
     xena "Stuck is better than dead."
-    
-    scene dark_bunker with dissolve
     
     narrator "You sit in the dark, listening to the silence. It is the most beautiful sound you have ever heard."
     nvl clear
